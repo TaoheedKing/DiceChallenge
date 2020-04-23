@@ -45,7 +45,7 @@ public class Dice {
         score = result + result2;
         System.out.println("Score: " + score);
             while (score < 100){
-                System.out.println("Do you want to roll again?");
+                System.out.println("Do you want to roll again? type 'yes'");
                 String rollAgain = sc.nextLine();
                 if (rollAgain.equalsIgnoreCase("yes")) {
 //                    System.out.println("Your rolls: " + (1 + r.nextInt(6)) + " & " + (1 + r.nextInt(6)));
