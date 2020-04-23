@@ -61,17 +61,18 @@ public class Dice {
                     }
                     else if ((result == 1 || result2 == 1)) {
                         System.out.println("This is previous score: " + score);
-                        System.out.println("Score: " + score);
+                        System.out.println("New Score: " + score);
                     } else {
                         System.out.println("This is previous score: " + score);
                         temp = score;
                         newScore = (result + result2);
                         score = newScore + temp;
-                        System.out.println("New score: " + score);
+                        System.out.println("New Score: " + score);
                     }
+                } else {
+                    System.out.println();
+                    System.out.println("This is your final score: " + score);
                 }
-                System.out.println();
-                System.out.println("This is your final score: " + score);
             }
             sc.close();
             System.out.println("You have scored over 100!");
