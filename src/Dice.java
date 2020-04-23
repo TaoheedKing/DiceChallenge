@@ -72,12 +72,9 @@ public class Dice {
                 } else {
                     score = 100;
                     System.out.println();
-                    System.out.println("This is your final score: " + score);
-
                 }
             }
             sc.close();
-            System.out.println("You have scored over 100!");
             System.out.println("Thank you for playing!");
         }
     }
